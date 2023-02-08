@@ -1,10 +1,10 @@
 import React from "react";
 
-const Title = (props) => {
+const Title = (param1) => {
 return (
     <>
-        <h1 className="bg-red-600">{props.titreText}</h1>
-        <p>{props.paraText}</p>
+        <h1 className="bg-red-600">{param1.titreText}</h1>
+        <p>{param1.paraText}</p>
     </>
     );
 };
